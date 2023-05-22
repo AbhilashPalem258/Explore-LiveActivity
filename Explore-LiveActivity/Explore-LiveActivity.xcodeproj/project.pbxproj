@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51D198D293F942E0054CFCE /* Explore_LiveActivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D198C293F942E0054CFCE /* Explore_LiveActivityApp.swift */; };
+		D51D198F293F942E0054CFCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D198E293F942E0054CFCE /* ContentView.swift */; };
+		D51D1991293F94320054CFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51D1990293F94320054CFCE /* Assets.xcassets */; };
+		D51D1994293F94320054CFCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51D1993293F94320054CFCE /* Preview Assets.xcassets */; };
+		D5B38FA029404A8900CE2821 /* ShuttleRideActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B38F9F29404A8900CE2821 /* ShuttleRideActivityAttributes.swift */; };
+		D5B38FA829404C2B00CE2821 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B38FA729404C2B00CE2821 /* WidgetKit.framework */; };
+		D5B38FAA29404C2B00CE2821 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B38FA929404C2B00CE2821 /* SwiftUI.framework */; };
+		D5B38FAD29404C2B00CE2821 /* ShuttlRideActivityWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B38FAC29404C2B00CE2821 /* ShuttlRideActivityWidgetBundle.swift */; };
+		D5B38FAF29404C2B00CE2821 /* ShuttlRideActivityWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B38FAE29404C2B00CE2821 /* ShuttlRideActivityWidgetLiveActivity.swift */; };
+		D5B38FB429404C2C00CE2821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B38FB329404C2C00CE2821 /* Assets.xcassets */; };
+		D5B38FBA29404C2C00CE2821 /* ShuttlRideActivityWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5B38FA529404C2B00CE2821 /* ShuttlRideActivityWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5B38FBF29404C7000CE2821 /* ShuttleRideActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B38F9F29404A8900CE2821 /* ShuttleRideActivityAttributes.swift */; };
+		D5B38FDF2940FEF000CE2821 /* TrackShuttleActivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B38FDE2940FEF000CE2821 /* TrackShuttleActivityHandler.swift */; };
+		D5B38FE32941F33400CE2821 /* liveactivity.json in Resources */ = {isa = PBXBuildFile; fileRef = D5B38FE22941F33400CE2821 /* liveactivity.json */; };
+		D5B38FE82941F5A800CE2821 /* AuthKey_AMCPC592X8.p8 in Resources */ = {isa = PBXBuildFile; fileRef = D5B38FE72941F5A800CE2821 /* AuthKey_AMCPC592X8.p8 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B38FB829404C2C00CE2821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51D1981293F942E0054CFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B38FA429404C2B00CE2821;
+			remoteInfo = ShuttlRideActivityWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5B38FBE29404C2D00CE2821 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5B38FBA29404C2C00CE2821 /* ShuttlRideActivityWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D51D1989293F942E0054CFCE /* Explore-LiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Explore-LiveActivity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51D198C293F942E0054CFCE /* Explore_LiveActivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore_LiveActivityApp.swift; sourceTree = "<group>"; };
+		D51D198E293F942E0054CFCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D51D1990293F94320054CFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51D1993293F94320054CFCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B38F9F29404A8900CE2821 /* ShuttleRideActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleRideActivityAttributes.swift; sourceTree = "<group>"; };
+		D5B38FA529404C2B00CE2821 /* ShuttlRideActivityWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShuttlRideActivityWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B38FA729404C2B00CE2821 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D5B38FA929404C2B00CE2821 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D5B38FAC29404C2B00CE2821 /* ShuttlRideActivityWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttlRideActivityWidgetBundle.swift; sourceTree = "<group>"; };
+		D5B38FAE29404C2B00CE2821 /* ShuttlRideActivityWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttlRideActivityWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		D5B38FB329404C2C00CE2821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B38FB529404C2C00CE2821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B38FC029407F7A00CE2821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D5B38FDE2940FEF000CE2821 /* TrackShuttleActivityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackShuttleActivityHandler.swift; sourceTree = "<group>"; };
+		D5B38FE02941E61A00CE2821 /* Explore-LiveActivity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Explore-LiveActivity.entitlements"; sourceTree = "<group>"; };
+		D5B38FE22941F33400CE2821 /* liveactivity.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = liveactivity.json; sourceTree = "<group>"; };
+		D5B38FE42941F43E00CE2821 /* ApiHitDoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ApiHitDoc.md; sourceTree = "<group>"; };
+		D5B38FE72941F5A800CE2821 /* AuthKey_AMCPC592X8.p8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AuthKey_AMCPC592X8.p8; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51D1986293F942E0054CFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B38FA229404C2B00CE2821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B38FAA29404C2B00CE2821 /* SwiftUI.framework in Frameworks */,
+				D5B38FA829404C2B00CE2821 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51D1980293F942E0054CFCE = {
+			isa = PBXGroup;
+			children = (
+				D51D198B293F942E0054CFCE /* Explore-LiveActivity */,
+				D5B38FAB29404C2B00CE2821 /* ShuttlRideActivityWidget */,
+				D5B38FA629404C2B00CE2821 /* Frameworks */,
+				D51D198A293F942E0054CFCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D51D198A293F942E0054CFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51D1989293F942E0054CFCE /* Explore-LiveActivity.app */,
+				D5B38FA529404C2B00CE2821 /* ShuttlRideActivityWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51D198B293F942E0054CFCE /* Explore-LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				D5B38FE72941F5A800CE2821 /* AuthKey_AMCPC592X8.p8 */,
+				D5B38FE12941F31800CE2821 /* payload */,
+				D5B38FE02941E61A00CE2821 /* Explore-LiveActivity.entitlements */,
+				D5B38FC029407F7A00CE2821 /* Info.plist */,
+				D51D198C293F942E0054CFCE /* Explore_LiveActivityApp.swift */,
+				D51D198E293F942E0054CFCE /* ContentView.swift */,
+				D51D1990293F94320054CFCE /* Assets.xcassets */,
+				D51D1992293F94320054CFCE /* Preview Content */,
+				D5B38F9F29404A8900CE2821 /* ShuttleRideActivityAttributes.swift */,
+				D5B38FDE2940FEF000CE2821 /* TrackShuttleActivityHandler.swift */,
+				D5B38FE42941F43E00CE2821 /* ApiHitDoc.md */,
+			);
+			path = "Explore-LiveActivity";
+			sourceTree = "<group>";
+		};
+		D51D1992293F94320054CFCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D51D1993293F94320054CFCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5B38FA629404C2B00CE2821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B38FA729404C2B00CE2821 /* WidgetKit.framework */,
+				D5B38FA929404C2B00CE2821 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B38FAB29404C2B00CE2821 /* ShuttlRideActivityWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D5B38FAC29404C2B00CE2821 /* ShuttlRideActivityWidgetBundle.swift */,
+				D5B38FAE29404C2B00CE2821 /* ShuttlRideActivityWidgetLiveActivity.swift */,
+				D5B38FB329404C2C00CE2821 /* Assets.xcassets */,
+				D5B38FB529404C2C00CE2821 /* Info.plist */,
+			);
+			path = ShuttlRideActivityWidget;
+			sourceTree = "<group>";
+		};
+		D5B38FE12941F31800CE2821 /* payload */ = {
+			isa = PBXGroup;
+			children = (
+				D5B38FE22941F33400CE2821 /* liveactivity.json */,
+			);
+			path = payload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51D1988293F942E0054CFCE /* Explore-LiveActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51D1997293F94320054CFCE /* Build configuration list for PBXNativeTarget "Explore-LiveActivity" */;
+			buildPhases = (
+				D51D1985293F942E0054CFCE /* Sources */,
+				D51D1986293F942E0054CFCE /* Frameworks */,
+				D51D1987293F942E0054CFCE /* Resources */,
+				D5B38FBE29404C2D00CE2821 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B38FB929404C2C00CE2821 /* PBXTargetDependency */,
+			);
+			name = "Explore-LiveActivity";
+			productName = "Explore-LiveActivity";
+			productReference = D51D1989293F942E0054CFCE /* Explore-LiveActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5B38FA429404C2B00CE2821 /* ShuttlRideActivityWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B38FBB29404C2D00CE2821 /* Build configuration list for PBXNativeTarget "ShuttlRideActivityWidgetExtension" */;
+			buildPhases = (
+				D5B38FA129404C2B00CE2821 /* Sources */,
+				D5B38FA229404C2B00CE2821 /* Frameworks */,
+				D5B38FA329404C2B00CE2821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuttlRideActivityWidgetExtension;
+			productName = ShuttlRideActivityWidgetExtension;
+			productReference = D5B38FA529404C2B00CE2821 /* ShuttlRideActivityWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51D1981293F942E0054CFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D51D1988293F942E0054CFCE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D5B38FA429404C2B00CE2821 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D51D1984293F942E0054CFCE /* Build configuration list for PBXProject "Explore-LiveActivity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51D1980293F942E0054CFCE;
+			productRefGroup = D51D198A293F942E0054CFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51D1988293F942E0054CFCE /* Explore-LiveActivity */,
+				D5B38FA429404C2B00CE2821 /* ShuttlRideActivityWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51D1987293F942E0054CFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51D1994293F94320054CFCE /* Preview Assets.xcassets in Resources */,
+				D5B38FE82941F5A800CE2821 /* AuthKey_AMCPC592X8.p8 in Resources */,
+				D51D1991293F94320054CFCE /* Assets.xcassets in Resources */,
+				D5B38FE32941F33400CE2821 /* liveactivity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B38FA329404C2B00CE2821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B38FB429404C2C00CE2821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51D1985293F942E0054CFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51D198F293F942E0054CFCE /* ContentView.swift in Sources */,
+				D5B38FA029404A8900CE2821 /* ShuttleRideActivityAttributes.swift in Sources */,
+				D51D198D293F942E0054CFCE /* Explore_LiveActivityApp.swift in Sources */,
+				D5B38FDF2940FEF000CE2821 /* TrackShuttleActivityHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B38FA129404C2B00CE2821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B38FAD29404C2B00CE2821 /* ShuttlRideActivityWidgetBundle.swift in Sources */,
+				D5B38FAF29404C2B00CE2821 /* ShuttlRideActivityWidgetLiveActivity.swift in Sources */,
+				D5B38FBF29404C7000CE2821 /* ShuttleRideActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B38FB929404C2C00CE2821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B38FA429404C2B00CE2821 /* ShuttlRideActivityWidgetExtension */;
+			targetProxy = D5B38FB829404C2C00CE2821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D51D1995293F94320054CFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51D1996293F94320054CFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51D1998293F94320054CFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Explore-LiveActivity/Explore-LiveActivity.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Explore-LiveActivity/Preview Content\"";
+				DEVELOPMENT_TEAM = 27699ZW9VR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Explore-LiveActivity/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuttl.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51D1999293F94320054CFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Explore-LiveActivity/Explore-LiveActivity.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Explore-LiveActivity/Preview Content\"";
+				DEVELOPMENT_TEAM = 27699ZW9VR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Explore-LiveActivity/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuttl.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5B38FBC29404C2D00CE2821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27699ZW9VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuttlRideActivityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShuttlRideActivityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuttl.ios.liveactivity.trackshuttl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B38FBD29404C2D00CE2821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27699ZW9VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuttlRideActivityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShuttlRideActivityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuttl.ios.liveactivity.trackshuttl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51D1984293F942E0054CFCE /* Build configuration list for PBXProject "Explore-LiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51D1995293F94320054CFCE /* Debug */,
+				D51D1996293F94320054CFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51D1997293F94320054CFCE /* Build configuration list for PBXNativeTarget "Explore-LiveActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51D1998293F94320054CFCE /* Debug */,
+				D51D1999293F94320054CFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B38FBB29404C2D00CE2821 /* Build configuration list for PBXNativeTarget "ShuttlRideActivityWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B38FBC29404C2D00CE2821 /* Debug */,
+				D5B38FBD29404C2D00CE2821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D51D1981293F942E0054CFCE /* Project object */;
+}

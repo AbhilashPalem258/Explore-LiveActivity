@@ -1,0 +1,15 @@
+{
+    "aps": {
+        "timestamp": 1670495250,
+        "event": "update",
+        "content-state": {
+            "rideMessage": "Relax, Everything is as per schedule",
+            "etaText": "32 Min"
+        },
+        "alert": {
+            "title": "Live activity title",
+            "subtitle": "Live activity subtitle",
+            "body": "Your pizza order will arrive soon.",
+        }
+    }
+}
